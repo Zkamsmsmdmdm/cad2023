@@ -2,7 +2,7 @@ from flask import Blueprint, render_template, current_app, \
     send_from_directory, session, redirect, url_for
 import os
 
-userapp = Blueprint('user', __name__, url_prefix='/user', template_folder='templates')
+userapp = Blueprint('user', __name__, url_prefix='/user', template_folder='templates'
 
 
 
